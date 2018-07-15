@@ -1,0 +1,36 @@
+.jumbotron_container{
+    box-sizing: border-box;
+    padding-top: 99px;
+    padding-left: 6px;
+}
+
+.jumbotron_container > h1{
+    font-size: 53px;
+margin-bottom: 67px;
+width: 63%;
+}
+
+.jumbotron_container > p{
+    border-left: 2px solid grey;
+    padding-left: 41px;
+    color: gray;
+    line-height: 26px;
+    max-width: 520px;
+}
+
+.jumbotron_container > button{
+    background-color: #E7605C;
+    border: none;
+    margin-top: 38px;
+    padding: 0px 20px;
+    height: 48px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.jumbotron_container > button:hover{
+    background-color: #c95250;
+}

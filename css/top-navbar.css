@@ -1,0 +1,48 @@
+.top_navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    height: 106px;
+}
+
+.top_navbar > img {
+    width: 44px;
+    height: 66px;
+}
+
+.top_navbar >  .nav {
+
+display: flex;
+
+justify-content: space-between;
+
+height: 38px;
+
+align-items: center;
+
+width: 504px;
+font-size: 17px;
+color: grey;
+}
+
+.top_navbar >  .nav span:hover{
+    padding-bottom: 1px;
+    border-bottom: 2px solid gray;
+}
+
+.top_navbar > .nav input{
+    border: none;
+    border-bottom: 0.5px solid lightslategray;
+
+    width: 191px;
+    
+    margin-right: 4px;
+    
+    height: 34px;
+}
+
+.top_navbar > .nav input:focus{
+    /* color: rebeccapurple; */
+    border-bottom: 0.5px solid black;
+
+}
